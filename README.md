@@ -21,3 +21,5 @@ To run this project, install it locally using Node:
 ````
 $ cd ../message-generator
 $ node main.js
+
+````
