@@ -9,7 +9,7 @@ function pickAdjective() {
 }
 
 function pickAdverb() {
-    const adverbArray = ['definitely', 'probably', 'surely', 'without a doubt', 'for sure', 'maybe', 'possibly', 'absolutely', 'swiftly', 'quickly'];
+    const adverbArray = ['definitely', 'probably', 'surely', 'without a doubt', 'for sure', 'maybe', 'possibly', 'absolutely'];
     return adverbArray[Math.floor(Math.random() * adverbArray.length)];
 }
 
@@ -24,7 +24,13 @@ function pickPhrase() {
 }
 
 console.log();
-console.log(`The stock of ${pickStock()} looks ${pickAdjective()}!`);
-console.log(`You should ${pickAdverb()} ${pickVerb()}.`);
-console.log();
-console.log(pickPhrase());
+console.log('********************************************');
+console.log('*');
+console.log('*');
+console.log(`*  The stock of ${pickStock()} looks ${pickAdjective()}!`);
+console.log(`*  You should ${pickAdverb()} ${pickVerb()}.`);  
+console.log('*');
+console.log(`*  ${pickPhrase()}`);
+console.log('*');
+console.log('*');
+console.log('********************************************');
