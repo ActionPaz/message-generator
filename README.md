@@ -1,6 +1,6 @@
 # Message Generator
 
-Random message generator crated with JavaScript and Node.js.
+Random message generator created with JavaScript and Node.js.
 
 ## Table of Contents
 * [General info](#general-info)
